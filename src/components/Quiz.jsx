@@ -38,7 +38,7 @@ const Quiz = ({ onComplete }) => {
     },
     {
       id: 'q2',
-      text: 'A recent audit revealed compliance issues due to inconsistent data security protocols. The CFO needs a rapid resolution. What do you propose?',
+      text: 'A recent audit revealed compliance issues due to inconsistent data security protocols. We need a rapid resolution. What do you propose?',
       options: [
         { id: 'q2a1', text: 'Deploy an organization-wide cybersecurity training program and implement standardized security protocols.', type: 'type1' },
         { id: 'q2a2', text: 'Install advanced firewall and intrusion detection systems.', type: 'type2' },
@@ -48,7 +48,7 @@ const Quiz = ({ onComplete }) => {
     },
     {
       id: 'q3',
-      text: 'The nonprofit is expanding, and the CFO is concerned about scaling IT infrastructure without inflating costs. What\’s your recommendation?',
+      text: 'The business is expanding, and we are concerned about scaling IT infrastructure without inflating costs. What\’s your recommendation?',
       options: [
         { id: 'q3a1', text: 'Migrate to scalable cloud services with pay-as-you-go pricing models.', type: 'type1' },
         { id: 'q3a2', text: 'Purchase additional physical servers to accommodate growth.', type: 'type2' },
@@ -68,7 +68,7 @@ const Quiz = ({ onComplete }) => {
     },
     {
       id: 'q5',
-      text: 'The CFO is concerned about potential cyber threats targeting donor information. What proactive measures should be taken?',
+      text: 'We are concerned about potential cyber threats targeting donor information. What proactive measures should be taken?',
       options: [
         { id: 'q5a1', text: 'Conduct regular security audits and implement robust encryption protocols.', type: 'type1' },
         { id: 'q5a2', text: 'Limit access to donor information to senior staff only.', type: 'type2' },

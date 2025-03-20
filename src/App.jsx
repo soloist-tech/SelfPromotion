@@ -89,22 +89,22 @@ function App() {
       'type1': {
         title: 'Overwhelmed',
         description: 'You\’re juggling financial reports, compliance issues, and IT infrastructure challenges. It seems like there\’s never enough time in the day. Perhaps it\’s time to bring in an expert who can streamline your IT operations and lighten your load.',
-        image: 'Robby.JPG'
+        image: 'https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzl6OHY1aDdjbW1sdzN3Z3RocXk1MWVpdmprdHhiYTZ6czQ1YWltbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cA0TiRmuetO1szgShj/giphy.gif'
       },
       'type2': {
         title: 'Tech-Savvy',
         description: 'You have a knack for technology and often find yourself delving into IT projects. However, this takes time away from your core financial responsibilities. Partnering with a dedicated IT manager could allow you to focus on what you do best.',
-        image: 'Robby.JPG'
+        image: 'https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZnk5b3IxZ3ljYms3c2V4ODlyeHFreXQ0b3VqMzJoOGdtcDlpcnk3bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3owypf6HrM3J7UTvAA/giphy.gif'
       },
       'type3': {
         title: 'Delegator',
         description: 'You understand the importance of entrusting tasks to specialists. While you focus on strategic financial planning, having a reliable IT manager ensures that the technical aspects are handled efficiently.',
-        image: 'Robby.JPG'
+        image: 'https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWhkdjU0NTNuMm16YXJwM29vMXpjemt3cnY2aHIxbXFzenJ5dHgxNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/eKDp7xvUdbCrC/giphy.gif'
       },
       'type4': {
-        title: 'Intuitive Visionary',
+        title: 'Visionary',
         description: 'You obviously know exactly what you\'re doing, and so do I.',
-        image: 'Robby.JPG'
+        image: 'https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDRlaGl5ZTVhMTVybGY5MDhyNXpseDF4amJkeHQ4bmM1MHYzYzhleiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Id1Ay5MD5IsF6Or51v/giphy.gif'
       }
     };
     

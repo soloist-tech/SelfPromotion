@@ -52,12 +52,26 @@ const ResultsPage = ({ result, onRestart }) => {
           {result.description}
         </div>
         
-        {/* REPLACE: Custom content based on result type */}
+        {/* Custom content with image on the left */}
         <div className="mb-10 p-4 bg-gray-50 rounded-lg">
-          <h3 className="font-bold mb-2">What This Means For You:</h3>
-          <p>
-            I'm a devoted and loyal employee who takes every challenge seriously. I excel at new challenges and I have a practiced hand with over 15 years experience in Enterprise Technology.
-          </p>
+          <div className="flex flex-col md:flex-row gap-4 items-center md:items-start">
+            {/* Left side image */}
+            <div className="w-full md:w-1/3 flex-shrink-0">
+              <img 
+                src="Robby.JPG" 
+                alt="Profile" 
+                className="w-full h-auto rounded-lg shadow-md" 
+              />
+            </div>
+            
+            {/* Right side text */}
+            <div className="w-full md:w-2/3">
+              <h3 className="font-bold mb-2">What This Means For You:</h3>
+              <p>
+              With over 15 years of dedicated experience in Enterprise Technology, I thrive on tackling new challenges with unwavering commitment. My extensive background encompasses a wide array of technical proficiencies, enabling me to adeptly navigate and resolve complex issues. I am deeply passionate about leveraging technology to drive innovation and efficiency, consistently seeking opportunities to contribute to organizational success.
+              </p>
+            </div>
+          </div>
         </div>
         
         {/* Share section */}
