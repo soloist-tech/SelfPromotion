@@ -98,7 +98,7 @@ function App() {
       },
       'type3': {
         title: 'The Ethical Guardian',
-        description: 'You ensure AI serves humanity's best interests. Your moral compass is strong, even if it occasionally slows down progress.',
+        description: 'You ensure AI serves humanity\'s best interests. Your moral compass is strong, even if it occasionally slows down progress.',
         image: '/results/guardian.jpg'
       },
       'type4': {

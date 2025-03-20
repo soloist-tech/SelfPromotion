@@ -61,9 +61,9 @@ const Quiz = ({ onComplete }) => {
       text: 'In a team meeting, you\'re most likely to say:',
       options: [
         { id: 'q4a1', text: '"What if we could create AI that does X? Imagine the possibilities!"', type: 'type1' },
-        { id: 'q4a2', text: '"I've been experimenting with this new architecture that improves performance by 15%"', type: 'type2' },
+        { id: 'q4a2', text: '"I\'ve been experimenting with this new architecture that improves performance by 15%"', type: 'type2' },
         { id: 'q4a3', text: '"Have we considered how this might impact different user groups?"', type: 'type3' },
-        { id: 'q4a4', text: '"Let's focus on the features users actually want and will pay for"', type: 'type4' }
+        { id: 'q4a4', text: '"Let\'s focus on the features users actually want and will pay for"', type: 'type4' }
       ]
     },
     {
