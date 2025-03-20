@@ -104,7 +104,7 @@ function App() {
       'type4': {
         title: 'Intuitive Visionary',
         description: 'You obviously know exactly what you\'re doing, and so do I.',
-        image: '/results/stressed_out_cfo.jpg'
+        image: 'BillyBob.png'
       }
     };
     

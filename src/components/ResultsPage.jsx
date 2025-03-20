@@ -32,12 +32,18 @@ const ResultsPage = ({ result, onRestart }) => {
         <div className="mb-2 text-sm font-medium text-primary uppercase tracking-wide">Your Easy Button Solution</div>
         <h1 className="text-3xl md:text-4xl font-extrabold mb-6">{result.title}</h1>
         
-        {/* Result image - REPLACE with your own images */}
+        {/* Result image */}
         <div className="mb-8 flex justify-center">
           <div className="relative w-64 h-64 rounded-full bg-primary/10 border-4 border-primary flex items-center justify-center overflow-hidden">
-            {/* Placeholder for result image */}
-            {/* You'll need to add your own images to the public folder */}
-            <div className="text-6xl">{result.title[4]}</div>
+            {result.image ? (
+              <img 
+                src={result.image} 
+                alt={result.title} 
+                className="w-full h-full object-cover" 
+              />
+            ) : (
+              <div className="text-6xl">{result.title[0]}</div>
+            )}
           </div>
         </div>
         
