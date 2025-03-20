@@ -11,7 +11,7 @@ const ShareButton = ({ result }) => {
   const [copied, setCopied] = useState(false)
   
   // Generate share text
-  const shareText = `I took the Narcissistic AI Resume Quiz and I'm "${result.title}"! Take the quiz to discover your AI personality type: https://yourquizurl.netlify.app`
+  const shareText = `I took the How to Solve All My Problems Quiz and I'm "${result.title}"! Take the quiz: https://soloist.tech/`
   
   // Handle share button click
   const handleShare = async () => {
@@ -19,9 +19,9 @@ const ShareButton = ({ result }) => {
     if (navigator.share) {
       try {
         await navigator.share({
-          title: 'My AI Personality Quiz Result',
+          title: 'My Quiz Result',
           text: shareText,
-          url: 'https://yourquizurl.netlify.app',
+          url: 'https://soloist.tech/',
         })
       } catch (error) {
         console.log('Error sharing:', error)

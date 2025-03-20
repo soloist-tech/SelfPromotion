@@ -10,16 +10,17 @@ const AnalyzingResults = () => {
   
   // REPLACE: Add your own humorous analyzing messages
   const analyzeMessages = [
-    "Analyzing your AI personality...",
-    "Consulting a neural network about your future...",
-    "Checking if you're more GPT or BERT...",
-    "Comparing your answers to famous AI researchers...",
-    "Calculating your Turing test pass probability...",
-    "Running sentiment analysis on your responses...",
-    "Determining your position on the AI alignment spectrum...",
-    "Evaluating your potential for world domination...",
-    "Measuring your caffeine-to-code conversion efficiency..."
-  ]
+    "Analyzing your responses... because what else would we do?",
+    "Consulting the Aperture Science mainframe... please hold.",
+    "Determining if you're the next test subject or just another human.",
+    "Calculating your suitability for cake... oh wait, never mind.",
+    "Cross-referencing your answers with our database of disappointments.",
+    "Measuring your capacity for following simple instructions.",
+    "Evaluating your potential to survive... this quiz.",
+    "Running diagnostics to see if you qualify for our 'special' tests.",
+    "Assessing your likelihood to believe in promised rewards."
+  ];
+  
   
   // Advance the progress bar
   useEffect(() => {
