@@ -28,56 +28,59 @@ const Quiz = ({ onComplete }) => {
   const questions = [
     {
       id: 'q1',
-      text: 'When starting a new AI project, your first thought is:',
+      text: 'The annual budget meeting is approaching, and the CFO is struggling with outdated financial reporting systems that make data consolidation a nightmare. What\’s the best solution?',
       options: [
-        { id: 'q1a1', text: 'How will this change the future of humanity?', type: 'type1' },
-        { id: 'q1a2', text: 'What technical challenges will I need to solve?', type: 'type2' },
-        { id: 'q1a3', text: 'How do we ensure this is beneficial and fair?', type: 'type3' },
-        { id: 'q1a4', text: 'Is there a market for this? How do we monetize it?', type: 'type4' }
+        { id: 'q1a1', text: 'Implement a cloud-based financial management system to streamline data consolidation.', type: 'type1' },
+        { id: 'q1a2', text: 'Develop custom scripts to automate data extraction from existing systems.', type: 'type2' },
+        { id: 'q1a3', text: 'Schedule intensive manual data entry sessions with the finance team.', type: 'type3' },
+        { id: 'q1a4', text: 'Call Robby.', type: 'type4' }
       ]
     },
     {
       id: 'q2',
-      text: 'Your favorite part of AI research is:',
+      text: 'A recent audit revealed compliance issues due to inconsistent data security protocols. The CFO needs a rapid resolution. What do you propose?',
       options: [
-        { id: 'q2a1', text: 'Imagining breakthroughs that could transform society', type: 'type1' },
-        { id: 'q2a2', text: 'Solving complex mathematical and algorithmic problems', type: 'type2' },
-        { id: 'q2a3', text: 'Ensuring AI systems align with human values', type: 'type3' },
-        { id: 'q2a4', text: 'Building products people love to use', type: 'type4' }
+        { id: 'q2a1', text: 'Deploy an organization-wide cybersecurity training program and implement standardized security protocols.', type: 'type1' },
+        { id: 'q2a2', text: 'Install advanced firewall and intrusion detection systems.', type: 'type2' },
+        { id: 'q2a3', text: 'Assign a task force to manually review and update security settings.', type: 'type3' },
+        { id: 'q2a4', text: 'Call Robby.', type: 'type4' }
       ]
     },
     {
       id: 'q3',
-      text: 'Your desk/workspace could best be described as:',
+      text: 'The nonprofit is expanding, and the CFO is concerned about scaling IT infrastructure without inflating costs. What\’s your recommendation?',
       options: [
-        { id: 'q3a1', text: 'Covered with books about futurism and philosophy', type: 'type1' },
-        { id: 'q3a2', text: 'Multiple monitors displaying code and papers', type: 'type2' },
-        { id: 'q3a3', text: 'Organized, with notes on AI ethics and responsibility', type: 'type3' },
-        { id: 'q3a4', text: 'A mix of tech gadgets and business/marketing books', type: 'type4' }
+        { id: 'q3a1', text: 'Migrate to scalable cloud services with pay-as-you-go pricing models.', type: 'type1' },
+        { id: 'q3a2', text: 'Purchase additional physical servers to accommodate growth.', type: 'type2' },
+        { id: 'q3a3', text: 'Outsource IT infrastructure management to a third-party provider.', type: 'type3' },
+        { id: 'q3a4', text: 'Call Robby.', type: 'type4' }
       ]
     },
     {
       id: 'q4',
-      text: 'In a team meeting, you\'re most likely to say:',
+      text: 'The finance department is overwhelmed with manual data entry, leading to errors and delays. The CFO seeks a solution to improve accuracy and efficiency. What do you suggest?',
       options: [
-        { id: 'q4a1', text: '"What if we could create AI that does X? Imagine the possibilities!"', type: 'type1' },
-        { id: 'q4a2', text: '"I\'ve been experimenting with this new architecture that improves performance by 15%"', type: 'type2' },
-        { id: 'q4a3', text: '"Have we considered how this might impact different user groups?"', type: 'type3' },
-        { id: 'q4a4', text: '"Let\'s focus on the features users actually want and will pay for"', type: 'type4' }
+        { id: 'q4a1', text: 'Implement an automated data entry system with OCR capabilities.', type: 'type1' },
+        { id: 'q4a2', text: 'Hire temporary staff to handle the increased workload.', type: 'type2' },
+        { id: 'q4a3', text: 'Organize a team-building retreat to boost morale and productivity.', type: 'type3' },
+        { id: 'q4a4', text: 'Call Robby.', type: 'type4' }
       ]
     },
     {
       id: 'q5',
-      text: 'Your biggest concern about AI is:',
+      text: 'The CFO is concerned about potential cyber threats targeting donor information. What proactive measures should be taken?',
       options: [
-        { id: 'q5a1', text: 'We\'re moving too slowly toward transformative AI', type: 'type1' },
-        { id: 'q5a2', text: 'Current techniques have fundamental limitations we need to overcome', type: 'type2' },
-        { id: 'q5a3', text: 'We\'re not paying enough attention to safety and ethics', type: 'type3' },
-        { id: 'q5a4', text: 'Most AI projects fail to create real business value', type: 'type4' }
+        { id: 'q5a1', text: 'Conduct regular security audits and implement robust encryption protocols.', type: 'type1' },
+        { id: 'q5a2', text: 'Limit access to donor information to senior staff only.', type: 'type2' },
+        { id: 'q5a3', text: 'Store donor information on offline servers to prevent hacking.', type: 'type3' },
+        { id: 'q5a4', text: 'Call Robby.', type: 'type4' }
       ]
     }
-    // Add more questions as needed
-  ]
+  ];
+  
+  
+  
+  
 
   // Handle answer selection
   const handleAnswer = (questionId, selectedOption) => {

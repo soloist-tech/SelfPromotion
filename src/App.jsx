@@ -87,26 +87,28 @@ function App() {
     // Return corresponding result based on dominant answer type
     const results = {
       'type1': {
-        title: 'The AI Visionary',
-        description: 'You\'re the big-picture thinker who sees the future of AI clearly. Your vision inspires others, though sometimes your head is in the clouds.',
-        image: '/results/visionary.jpg'
+        title: 'Overwhelmed',
+        description: 'You\’re juggling financial reports, compliance issues, and IT infrastructure challenges. It seems like there\’s never enough time in the day. Perhaps it\’s time to bring in an expert who can streamline your IT operations and lighten your load.',
+        image: '/results/overwhelmed_cfo.jpg'
       },
       'type2': {
-        title: 'The Technical Wizard',
-        description: 'You know the math, the code, and how to make it all work. You\'re the backbone of any AI project, though you might occasionally forget humans exist.',
-        image: '/results/wizard.jpg'
+        title: 'Tech-Savvy',
+        description: 'You have a knack for technology and often find yourself delving into IT projects. However, this takes time away from your core financial responsibilities. Partnering with a dedicated IT manager could allow you to focus on what you do best.',
+        image: '/results/tech_savvy_cfo.jpg'
       },
       'type3': {
-        title: 'The Ethical Guardian',
-        description: 'You ensure AI serves humanity\'s best interests. Your moral compass is strong, even if it occasionally slows down progress.',
-        image: '/results/guardian.jpg'
+        title: 'Delegator',
+        description: 'You understand the importance of entrusting tasks to specialists. While you focus on strategic financial planning, having a reliable IT manager ensures that the technical aspects are handled efficiently.',
+        image: '/results/delegator_cfo.jpg'
       },
       'type4': {
-        title: 'The AI Entrepreneur',
-        description: 'You know how to turn AI into products people want. Your business savvy is matched only by your appetite for risk.',
-        image: '/results/entrepreneur.jpg'
+        title: 'Intuitive Visionary',
+        description: 'You obviously know exactly what you\'re doing, and so do I.',
+        image: '/results/stressed_out_cfo.jpg'
       }
-    }
+    };
+    
+    
     
     return results[maxType]
   }

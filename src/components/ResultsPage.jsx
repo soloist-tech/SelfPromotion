@@ -29,7 +29,7 @@ const ResultsPage = ({ result, onRestart }) => {
     <div className="quiz-container py-10">
       <div className="quiz-card text-center">
         {/* Result heading */}
-        <div className="mb-2 text-sm font-medium text-primary uppercase tracking-wide">Your AI Personality Type</div>
+        <div className="mb-2 text-sm font-medium text-primary uppercase tracking-wide">Your Easy Button Solution</div>
         <h1 className="text-3xl md:text-4xl font-extrabold mb-6">{result.title}</h1>
         
         {/* Result image - REPLACE with your own images */}
@@ -48,10 +48,9 @@ const ResultsPage = ({ result, onRestart }) => {
         
         {/* REPLACE: Custom content based on result type */}
         <div className="mb-10 p-4 bg-gray-50 rounded-lg">
-          <h3 className="font-bold mb-2">What This Means For Your AI Career:</h3>
+          <h3 className="font-bold mb-2">What This Means For You:</h3>
           <p>
-            This is where you can add more personalized content based on the result.
-            You can include career advice, project suggestions, or humorous observations.
+            I'm a devoted and loyal employee who takes every challenge seriously. I excel at new challenges and I have a practiced hand with over 15 years experience in Enterprise Technology.
           </p>
         </div>
         
@@ -67,11 +66,10 @@ const ResultsPage = ({ result, onRestart }) => {
         {/* Footer with self-promotion */}
         <div className="mt-12 pt-6 border-t border-gray-200 text-sm text-gray-500">
           {/* REPLACE: Add your own info here */}
-          <p>Created by [Your Name] - AI Researcher & Developer</p>
+          <p>Created by Robert Robinson - Team Manager, Infrastructure Engineer and part-time AI Researcher/Developer</p>
           <div className="mt-2 flex justify-center gap-4">
-            <a href="https://github.com/yourusername" className="text-gray-400 hover:text-gray-600">GitHub</a>
-            <a href="https://twitter.com/yourusername" className="text-gray-400 hover:text-gray-600">Twitter</a>
-            <a href="https://linkedin.com/in/yourusername" className="text-gray-400 hover:text-gray-600">LinkedIn</a>
+            <a href="https://github.com/soloist-tech" className="text-gray-400 hover:text-gray-600">GitHub</a>
+            <a href="https://www.linkedin.com/in/diligent-haas/" className="text-gray-400 hover:text-gray-600">LinkedIn</a>
           </div>
         </div>
       </div>

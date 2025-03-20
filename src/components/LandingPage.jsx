@@ -14,22 +14,19 @@ const LandingPage = ({ onStart }) => {
       <div className="quiz-card w-full max-w-3xl mx-auto mb-8">
         <h1 className="text-4xl md:text-5xl font-extrabold mb-4 text-primary">
           {/* REPLACE: Your quiz title */}
-          Narcissistic AI Resume Quiz
+          Easy Button Quiz
         </h1>
         
         <div className="mb-6 text-xl text-gray-600">
           {/* REPLACE: Your tagline */}
-          Discover which AI researcher personality you embody!
+          Discover the answer to all your problems!
         </div>
         
         {/* Quiz Description */}
         <p className="mb-8 text-gray-700">
           {/* REPLACE: Your quiz description */}
-          Take this fun, slightly self-promotional quiz to find out which type of AI 
-          researcher personality matches yours. Are you a visionary, a technical wizard, 
-          an ethical guardian, or an entrepreneur? Answer a few questions and prepare 
-          to be thoroughly psychoanalyzed by an algorithm that's definitely not just using 
-          random chance to categorize you!
+          Tired of getting dragged into every little thing? Take this quiz to find a simple solution. Warning: Side effects may include excessive success and uncontrollable smiling.
+
         </p>
         
         {/* Start Quiz Button */}
@@ -51,7 +48,6 @@ const LandingPage = ({ onStart }) => {
           <div className="text-gray-400 font-bold">MIT Technology Review*</div>
           <div className="text-gray-400 font-bold">Artificial Daily*</div>
         </div>
-        <p className="text-xs text-gray-400 mt-2">* Not really, but wouldn't that be cool?</p>
       </div>
     </div>
   )
