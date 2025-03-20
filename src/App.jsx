@@ -89,22 +89,22 @@ function App() {
       'type1': {
         title: 'Overwhelmed',
         description: 'You\’re juggling financial reports, compliance issues, and IT infrastructure challenges. It seems like there\’s never enough time in the day. Perhaps it\’s time to bring in an expert who can streamline your IT operations and lighten your load.',
-        image: '/results/overwhelmed_cfo.jpg'
+        image: 'Robby.JPG'
       },
       'type2': {
         title: 'Tech-Savvy',
         description: 'You have a knack for technology and often find yourself delving into IT projects. However, this takes time away from your core financial responsibilities. Partnering with a dedicated IT manager could allow you to focus on what you do best.',
-        image: '/results/tech_savvy_cfo.jpg'
+        image: 'Robby.JPG'
       },
       'type3': {
         title: 'Delegator',
         description: 'You understand the importance of entrusting tasks to specialists. While you focus on strategic financial planning, having a reliable IT manager ensures that the technical aspects are handled efficiently.',
-        image: '/results/delegator_cfo.jpg'
+        image: 'Robby.JPG'
       },
       'type4': {
         title: 'Intuitive Visionary',
         description: 'You obviously know exactly what you\'re doing, and so do I.',
-        image: 'BillyBob.png'
+        image: 'Robby.JPG'
       }
     };
     
