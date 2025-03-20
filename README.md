@@ -1,15 +1,11 @@
-# Narcissistic AI Resume Quiz
+# Resume Quiz
 
 A self-promotional, pop-culture-infused, BuzzFeed-style quiz hosted on Netlify.
-
-## Project Overview
-
-This project is an interactive quiz that humorously showcases skills, projects, and AI interests while keeping the experience entertaining. The quiz is built with HTML, CSS, and JavaScript (React-based) and deployed on Netlify for easy hosting.
 
 ## Main Goals
 
 - Make it fun and shareable
-- Highlight your research and interests without being overly serious
+- Highlight my skills without being overly serious
 - Keep it simple to build and maintain
 
 ## Tech Stack
